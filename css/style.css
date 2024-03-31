@@ -1,0 +1,53 @@
+*{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.navbar{
+    background-color: transparent !important;
+}
+.bg-drop{
+    background-color: transparent !important;
+    color: #fff !important;
+}
+.dropdown-menu{
+    background-color: #ffffff7a !important;
+    border-radius: 1rem !important;
+    overflow: hidden;
+}
+.dropdown-item{
+    color: #fff !important;
+    padding: .8rem  3rem!important;
+}
+.dropdown-item:hover{
+    background-color: #ffffff9d !important;
+    color: #000000ac !important;
+}
+body > nav > div > div > ul > li.dropdown-item:hover{
+    background-color: transparent !important;
+    color: #000000ac !important;
+}
+
+body{
+    background-image: url("../img/mysterious-night-sky-illuminates-tranquil-starry-landscape-generated-by-artificial-intelligence.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.nav-link, .navbar-brand{
+    color: #fff !important;
+}
+.nav-link:hover, .navbar-brand:hover{
+    color: #534dc9 !important;
+}
+
+
+.btn.btn-primary{
+    background-color: #7f78ff;
+    border-color: #7f78ff;
+    border-radius: 2rem;
+    padding: .5rem 2rem;
+}
+.btn.btn-primary:hover{
+    background-color: #534dc9;
+    border-color: #534dc9;
+}
